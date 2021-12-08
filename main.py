@@ -7,11 +7,10 @@
 print("я хочу на этот фильм")
 print("привет а сколько тебе лет?")
 answer=int(input("сколько тебе лет?"))
-if answer>=12 and answer<16:
+if answer<=11:
     print("нет ты мелкий")
-if answer<=16 and answer>=13:
+elif answer<=15:
         print("а ты с родителями")
-if answer>=18:
-    print("проходите")
-else:
-    print("подождите до разрешонного возраста")
+elif answer>=16:
+        print("проходите")
+
